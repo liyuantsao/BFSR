@@ -1,0 +1,78 @@
+train_dataset:
+  dataset:
+    name: image-folder-DF2K
+    args:
+      root_path_D2K: /path/to/DIV2K_train_HR
+      root_path_F2K: /path/to/Flickr2K/bin
+      repeat: 8
+      cache: in_memory
+  wrapper:
+    name: sr-implicit-downsampled-fast
+    args:
+      inp_size: 32
+      scale_max: 4
+      augment: true
+  batch_size: 16
+
+val_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: /path/to/DIV2K_valid_HR
+      first_k: 10
+      repeat: 160
+      cache: in_memory
+  wrapper:
+    name: sr-implicit-downsampled-fast
+    args:
+      inp_size: 32
+      scale_max: 4
+  batch_size: 16
+
+data_norm:
+  inp: {sub: [0.5], div: [0.5]}
+  gt: {sub: [0.5], div: [0.5]}
+
+model:
+  name: linf
+  args:
+    encoder_spec:
+      name: rrdb
+      args:
+        no_upsampling: true
+    imnet_spec:
+      name: flow
+      args:
+        name: flow
+    flow_layers: 10
+    num_layer: 3
+    hidden_dim: 256
+
+prior_model:
+  name: unet
+  args:
+    in_chans: 3
+    depth: 3
+    dim: 64
+    bilinear: true
+
+optimizer:
+  name: adam
+  args:
+    lr: !!float 1e-4
+
+epoch_max: 1000
+
+multi_step_lr: 
+  milestones: [200, 400, 600, 800]
+  gamma: 0.5
+
+loss_weight:
+  vgg: !!float 1
+  latent: !!float 0
+
+epoch_val: 10
+epoch_save: 50
+
+resume: rrdb-linf.pth
+# resume_latent_module: 
