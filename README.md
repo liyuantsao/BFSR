@@ -4,6 +4,8 @@
 
 [Li-Yuan Tsao](https://liyuantsao.github.io/), [Yi-Chen Lo](https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=zh-TW), [Chia-Che Chang](https://scholar.google.com/citations?user=FK1RcpoAAAAJ&hl=zh-TW), [Hao-Wei Chen](https://scholar.google.com/citations?user=cpOf3qMAAAAJ&hl=en), [Roy Tseng](https://scholar.google.com/citations?user=uKgYlYYAAAAJ&hl=zh-TW), [Chien Feng](https://www.linkedin.com/in/chien-feng-528393293/), [Chun-Yi Lee](https://scholar.google.com/citations?user=5mYNdo0AAAAJ&hl=zh-TW)
 
+[Arxiv (soon)] [[PDF](https://drive.google.com/file/d/1DGjE5cQHohMfZf-Aw170NEiCHj_NXu3t/view?usp=drive_link)]
+
 > In this work, we identify several challenges in flow-based SR methods, including grid artifacts, exploding inverses, and suboptimal results due to a fixed sampling temperature. To tackle these issues, we introduce a learned prior, which is predicted by the proposed latent module, to the inference phase of flow-based SR models. This framework not only addresses the inherent issues in flow-based SR models but also enhances the quality of synthesized images without modifying the original design or pre-trained weights of these models. Our proposed framework is effective, flexible in design, and able to generalize to both fixed-scale and arbitrary-scale SR frameworks without requiring customized components.
 
 
