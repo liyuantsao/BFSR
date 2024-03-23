@@ -46,6 +46,18 @@ To run your experiments on LINF-LP and SRFlow-LP, please refer to `LINF-LP` and 
 
 <img width="70%" height="70%" alt="image" src="https://github.com/liyuantsao/FlowSR-LP/assets/73187544/4bee463a-ca1c-494e-9e7b-af5b0167b8f0">
 
+## Citation
+If you find our work helpful for your research, we would greatly appreciate your assistance in sharing it with the community and citing it using the following BibTex. Thank you for supporting our research.
+
+```
+@inproceedings{tsao2024boosting,
+      title     = {Boosting Flow-based Generative Super-Resolution Models via Learned Prior},
+      author    = {Li-Yuan Tsao and Yi-Chen Lo and Chia-Che Chang and Hao-Wei Chen and Roy Tseng and Chien Feng and Chun-Yi Lee},
+      booktitle = {Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+      year      = {2024},
+}
+```
+
 
 ## Acknowledgements
 Our codes are built on LINF ([Paper](https://arxiv.org/abs/2303.05156), [code](https://github.com/JNNNNYao/LINF)) and SRFlow ([Paper](https://arxiv.org/abs/2006.14200), [Code](https://github.com/andreas128/SRFlow)), we appriciate their amazing works that advance this community.
