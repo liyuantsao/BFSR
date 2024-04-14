@@ -1,6 +1,8 @@
 # Boosting Flow-based Generative Super-Resolution Models via Learned Prior [CVPR 2024]
 
-**This is the official repository of "[Boosting Flow-based Generative Super-Resolution Models via Learned Prior](http://arxiv.org/abs/2403.10988)".**
+**This is the official repository of "Boosting Flow-based Generative Super-Resolution Models via Learned Prior".**
+<br><br>
+[![arXiv](https://img.shields.io/badge/arXiv-2403.10988-b31b1b.svg?style=plastic)](http://arxiv.org/abs/2403.10988)
 
 [Li-Yuan Tsao](https://liyuantsao.github.io/), [Yi-Chen Lo](https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=zh-TW), [Chia-Che Chang](https://scholar.google.com/citations?user=FK1RcpoAAAAJ&hl=zh-TW), [Hao-Wei Chen](https://scholar.google.com/citations?user=cpOf3qMAAAAJ&hl=en), [Roy Tseng](https://scholar.google.com/citations?user=uKgYlYYAAAAJ&hl=zh-TW), [Chien Feng](https://www.linkedin.com/in/chien-feng-528393293/), [Chun-Yi Lee](https://scholar.google.com/citations?user=5mYNdo0AAAAJ&hl=zh-TW)
 
