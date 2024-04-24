@@ -9,10 +9,12 @@ pip install torch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -f https://down
 ```
 
 ### 2. Datasets
+We use `DIV2K` dataset for training EDSR-baseline-LINF-LP, `DIV2K + Flickr2K` (DF2K) datasets for training RRDB-LINF-LP. You can download these datasets with the following links.
+
 a. [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)<br>
 * For training and evaluating edsr-baseline-linf-LP and rrdb-linf-LP, you have to download `DIV2K/DIV2K_train_HR/`, `DIV2K/DIV2K_valid_HR/`, and `DIV2K/DIV2K_valid_LR_bicubic/X4/` in this website.
-b. [Flickr2K](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)<br>
-* For training rrdb-linf-LP, we first transform Flickr2K dataset to `.pkl` files.
+
+b. [Flickr2K](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
 
 
 ## Running your experiments
