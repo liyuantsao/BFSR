@@ -59,11 +59,13 @@ To run your experiments on LINF-LP and SRFlow-LP, please refer to `LINF-LP` and 
 If you find our work helpful for your research, we would greatly appreciate your assistance in sharing it with the community and citing it using the following BibTex. Thank you for supporting our research.
 
 ```
-@inproceedings{tsao2024boosting,
-      title     = {Boosting Flow-based Generative Super-Resolution Models via Learned Prior},
-      author    = {Li-Yuan Tsao and Yi-Chen Lo and Chia-Che Chang and Hao-Wei Chen and Roy Tseng and Chien Feng and Chun-Yi Lee},
-      booktitle = {Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
-      year      = {2024},
+@InProceedings{Tsao_2024_CVPR,
+    author    = {Tsao, Li-Yuan and Lo, Yi-Chen and Chang, Chia-Che and Chen, Hao-Wei and Tseng, Roy and Feng, Chien and Lee, Chun-Yi},
+    title     = {Boosting Flow-based Generative Super-Resolution Models via Learned Prior},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {26005-26015}
 }
 ```
 
